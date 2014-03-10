@@ -1,0 +1,24 @@
+{
+  "name": "pi-ops",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony lib/server.js"
+  },
+  "author": "rektide <rektide@voodoowarez.com>",
+  "license": "X.org",
+  "dependencies": {
+    "osc-min": "~0.1.0",
+    "engine.io": "~1.0.1",
+    "engine.io-client": "~1.0.1",
+    "rc": "~0.3.4",
+    "koa": "~0.5.1",
+    "koa-static-cache": "~1.0.6",
+    "koa-static": "^1.4.3"
+  },
+  "devDependencies": {
+    "workerify": "~0.2.3",
+    "browserify": "^3.32.1"
+  }
+}
